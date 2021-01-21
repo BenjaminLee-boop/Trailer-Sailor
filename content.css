@@ -16,6 +16,10 @@ html {
   margin-left: 15px;
 }
 
+.movieInfo {
+  color: white;
+}
+
 .input {
   background-color: rgb(43, 43, 43);
   border-radius: 20px;
@@ -37,11 +41,9 @@ html {
   padding: 5px;
 }
 
-p {
-  text-align: end;
-}
 
 .subtitle {
+  text-align: end;
   color: aliceblue;
   font-family: "Pacifico", cursive;
 }
@@ -57,4 +59,5 @@ strong {
   margin: 20px;
   box-shadow: 5px 5px black;
 }
+
 /* Jarred code end */
