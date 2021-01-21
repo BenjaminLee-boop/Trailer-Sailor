@@ -20,15 +20,12 @@ function queryOMDB(title) {
     var searchQuery = "&t=";
     $.ajax(baseUrl + OMDB_API_KEY + searchQuery + title).then(function (r) {
       $("#movieTitle").text(r.Title);
-      r.Year;
-      r.Plot;
-      r.Ratings[0].Value;
-      r.Ratings[1].Value;
-      r.Ratings[2].Value;
-      r.Poster;
-      
-      
-      $("#movieContainer").append(movieContainer);
+      $("#movieReleaseDate").text(r.Year);
+      $("#moviePlot").text(r.Plot);
+      $("#IMDB").text(r.Ratings[0].Value);
+      $("#rottenTomatoes").text(r.Ratings[1].Value);
+      $("#metaCritic").text(r.Ratings[2].Value);
+      $("#moviePoster").attr("src", r.Poster);
     });
   }
   //end queryOMDB function by Benjamin Lee
@@ -40,4 +37,6 @@ $("#ajax-test").on("click", function(t){
     playTrailer(userInput);
     queryOMDB(userInput);
 });
+playTrailer("The Matrix");
+queryOMDB("The matrix");
 //end onClick function
