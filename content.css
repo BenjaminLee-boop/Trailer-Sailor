@@ -1,3 +1,60 @@
-#synopsis {
-width: 100%;
+/* Jarred code begin */
+html {
+  background-color: rgb(37, 34, 34);
 }
+
+.navbar {
+  background-color: rgb(15, 89, 150);
+  border-radius: 10px;
+  box-shadow: 5px 5px black;
+}
+
+.title {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  color: aliceblue;
+  margin-left: 15px;
+}
+
+.input {
+  background-color: rgb(43, 43, 43);
+  border-radius: 20px;
+  color: aliceblue;
+  box-shadow: 5px 5px black;
+}
+
+.input::placeholder {
+  color: aliceblue;
+}
+
+.button {
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+}
+
+.control {
+  margin: 5px;
+  padding: 5px;
+}
+
+p {
+  text-align: end;
+}
+
+.subtitle {
+  color: aliceblue;
+  font-family: "Pacifico", cursive;
+}
+
+strong {
+  color: darkred;
+}
+
+.search {
+  display: flexbox;
+  background-color: slategrey;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px black;
+}
+/* Jarred code end */
