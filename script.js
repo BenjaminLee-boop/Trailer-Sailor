@@ -7,8 +7,9 @@ function playTrailer(userInput){
           var videoID = response.items[0].id.videoId;
           $("#player").append("<iframe>")
             $("iframe").attr("src", `https://www.youtube.com/embed/${videoID}?autoplay=1`)
-            $("iframe").attr("width", '640')
-            $("iframe").attr("height", '390') 
+           // $("iframe").attr("width", '640')
+           // $("iframe").attr("height", '390') 
+            $("iframe").attr("id", "iframeResponsive");
       });
 }
 //end playTrailer function by Ben Trevethan
