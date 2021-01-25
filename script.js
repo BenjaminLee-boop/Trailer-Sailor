@@ -23,7 +23,7 @@ function playTrailer(userInput) {
 
 //queryOMDB function by Benjamin Lee
 function queryOMDB(title) {
-  var baseUrl = "http://www.omdbapi.com/?apikey=";
+  var baseUrl = "https://www.omdbapi.com/?apikey=";
   var OMDB_API_KEY = "trilogy";
   var searchQuery = "&t=";
   $.ajax(baseUrl + OMDB_API_KEY + searchQuery + title).then(function (r) {
