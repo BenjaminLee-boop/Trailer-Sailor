@@ -1,3 +1,13 @@
+// function by suri
+$("#nameSave").on("click", function () {
+  var inputName = $("#Name").val();
+  localStorage.setItem("userName", inputName);
+  $("#Name").val("");
+  $("#Name").hide();
+  $("#nameSave").hide();
+});
+
+
 //playTrailer function by Ben Trevethan
 function playTrailer(userInput) {
   var queryURL =
