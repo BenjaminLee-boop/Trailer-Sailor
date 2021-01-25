@@ -15,6 +15,11 @@ html {
   color: aliceblue;
   margin-left: 15px;
 }
+#greeting {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  color: aliceblue;
+}
 
 .movieInfo {
   color: white;
