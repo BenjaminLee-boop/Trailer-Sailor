@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="content.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -18,8 +21,8 @@
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
-            <img src="https://cdn.picpng.com/anchor/anchor-sailors-boot-ship-sailor-52675.png"
-              alt="sailor anchor" width="30" height="50" />
+            <img src="https://cdn.picpng.com/anchor/anchor-sailors-boot-ship-sailor-52675.png" alt="sailor anchor"
+              width="30" height="50" />
             <h1 class="title">Trailer Sailor</h1>
           </a>
         </div>
@@ -31,7 +34,7 @@
       </p>
     </div>
   </section>
- 
+
   <div class="search">
     <div class="field has-addons">
       <div class="control">
@@ -41,13 +44,16 @@
       <div class="control">
         <a id="nameSave" class="button is-info"> Save </a>
         <div>
-          
+
         </div>
       </div>
     </div>
     <div class="field has-addons">
       <div class="control">
-        <input id="search-input" class="input" type="text" placeholder="Search here" />
+        <div class="ui-widget">
+          <label for="search-input"></label>
+          <input id="search-input" class="input" type="text" placeholder="Search here" />
+        </div>
       </div>
       <div class="control">
         <a class="button is-info" id="search-button"> Search </a>
@@ -73,7 +79,6 @@
     <div class="i-frame-container" id="player">
     </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="./script.js"></script>
 </body>
 
