@@ -5,6 +5,12 @@ $("#nameSave").on("click", function () {
   $("#Name").val("");
   $("#Name").hide();
   $("#nameSave").hide();
+
+
+  var Ben = "";
+  $("#name").val(Ben);
+  var suri = "Hello " + localStorage.getItem("userName") + " Welcome!";
+  $("#greeting").text(suri);
 });
 
 
