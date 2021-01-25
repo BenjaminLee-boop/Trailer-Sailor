@@ -6,7 +6,6 @@ $("#nameSave").on("click", function () {
   $("#Name").hide();
   $("#nameSave").hide();
 
-
   var Ben = "";
   $("#name").val(Ben);
   var suri = "Hello " + localStorage.getItem("userName") + " Welcome!";
