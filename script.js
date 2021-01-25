@@ -9,6 +9,7 @@ function playTrailer(userInput) {
     url: queryURL,
   }).then(function (response) {
     var videoID = response.items[0].id.videoId;
+    $("#player").empty();
     $("#player").append("<iframe>");
     $("iframe").attr(
       "src",
@@ -39,13 +40,11 @@ function queryOMDB(title) {
 //end queryOMDB function by Benjamin Lee
 
 //onClick to call the two functions
-$("#ajax-test").on("click", function (t) {
-  var userInput = $("#user-input").val();
+$("#search-button").on("click", function (t) {
+  var userInput = $("#search-input").val();
   t.preventDefault();
   playTrailer(userInput);
   queryOMDB(userInput);
 });
-playTrailer("the matrix");
-queryOMDB("the matrix");
 
 //end onClick function
