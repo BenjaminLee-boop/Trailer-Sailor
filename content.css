@@ -29,20 +29,24 @@ html {
 }
 
 .input {
-  min-width: 150px;
   background-color: rgb(43, 43, 43);
   border-radius: 20px;
   color: aliceblue;
   box-shadow: 5px 5px black;
+  width: 200px;
+  height: 40px;
+
 }
 
 .input::placeholder {
   color: aliceblue;
+  font-weight: bolder;
 }
 
 .button {
   border-radius: 20px;
   box-shadow: 5px 5px black;
+  width: 66.67px;
 }
 
 .control {
