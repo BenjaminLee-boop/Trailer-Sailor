@@ -8,7 +8,7 @@ $("#nameSave").on("click", function () {
 
   var Ben = "";
   $("#name").val(Ben);
-  var suri = "Hello " + localStorage.getItem("userName") + " Welcome!";
+  var suri = "Hello " + localStorage.getItem("userName") + ", Welcome!";
   $("#greeting").text(suri);
 });
 
@@ -145,7 +145,7 @@ $(function () {
     "Requiem for a Dream ",
     "Eternal Sunshine of the Spotless Mind ",
     "Full Metal Jacket ",
-    " Oldboy ",
+    "Oldboy",
     "Braveheart ",
     "L.A.Confidential ",
     "Bicycle Thieves ",
