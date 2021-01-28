@@ -43,5 +43,6 @@ Plans for furthering the scope of this application would include the following:
 https://benjaminlee-boop.github.io/Trailer-Sailor/ 
 
 ## Screenshot
-![Screenshot](assets\grab.png)
-![Wireframe](assets\wireframe.jpg)
+![Screenshot](https://github.com/BenjaminLee-boop/Trailer-Sailor/blob/main/assets/grab.png?raw=true)
+
+![Wireframe](https://github.com/BenjaminLee-boop/Trailer-Sailor/blob/main/assets/wireframe.jpg?raw=true)
