@@ -29,6 +29,11 @@ function playTrailer(userInput) {
       "src",
       `https://www.youtube.com/embed/${videoID}?autoplay=1`,
     );
+    $("iframe").attr("allowfullscreen", "allowfullscreen");
+    $("iframe").attr("mozallowfullscreen", "mozallowfullscreen");
+    $("iframe").attr("msallowfullscreen", "msallowfullscreen");
+    $("iframe").attr("oallowfullscreen", "oallowfullscreen");
+    $("iframe").attr("webkitallowfullscreen", "webkitallowfullscreen");
     // $("iframe").attr("width", '640')
     // $("iframe").attr("height", '390')
     $("iframe").attr("id", "iframeResponsive");
