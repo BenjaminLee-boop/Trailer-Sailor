@@ -67,9 +67,8 @@ strong {
   justify-content: center;
   background-color: slategrey;
   border-radius: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
-  
+  margin-left: 5%;
+  margin-right: 5%;
   box-shadow: 5px 5px black;
 }
 
