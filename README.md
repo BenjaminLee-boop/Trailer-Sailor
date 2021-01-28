@@ -17,21 +17,31 @@
 ## Reasoning
 The general idea of this application was to address a few key points:
 - trailers are not always nested within the streaming service
-- metadata is not always displayed, or at all, within a streaming service
-- ease of use (single field input yields all output)
-- iFrame API allows chromecasting
+- metadata is not always displayed well (or at all) within a streaming service
+- ease of use (single field input is all that is required)
+- iFrame/Youtube API allows chromecasting
 - save user through Local Storage
 
 ## Process
-1. Building the html skeleton and API calls for OMDB & Google/Youtube
+1. Building the html skeleton and API calls for OMDB & Google/Youtube.
 2. Combining the calls into one external js file, and splitting them into functions.
-3. Addressing responsiveness of the website, and combining the index and content pages into index.html
+3. Addressing responsiveness of the website, and combining the index and content pages into index.html.
 4. Added autofill functionality to the search bar for Top 100 Movies.
 5. Local storage function added for saving userName.
 6. Tidying up responsiveness and functionality, and finishing README.
+
+# Future Development
+Plans for furthering the scope of this application would include the following:
+- average meta score (avg. of Metacritic, IMDB and RottenTomatoes).
+- users score after watching the film, and its relation to the average meta score.
+- the ability to link with friends and suggest a pool of movies with random/vote selection.
+- eventually a meta-rating would develop if enough people were using the app, which could be used in conjunction with the avg. meta score to determine a movies 'worth'.
+- tracking preferred genres and types of movies/actors, and therefore more accurate movie suggestions.
+- link to streaming APIs so that it will show you if the movie or show is available on Streaming Platform X in your region.
 
 ## Link to deployed application
 https://benjaminlee-boop.github.io/Trailer-Sailor/ 
 
 ## Screenshot
 ![Screenshot](assets\grab.png)
+![Wireframe](assets\wireframe.jpg)
